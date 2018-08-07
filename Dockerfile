@@ -7,5 +7,4 @@ CMD ln -s /dados/infra/php.ini /etc/php.ini && \
     ln -s /dados/infra/apache/logs /etc/httpd/logs && \
     cat /dados/infra/hosts >> /etc/hosts && \
     service httpd start && \
-    service sshd start && \
     /bin/bash
